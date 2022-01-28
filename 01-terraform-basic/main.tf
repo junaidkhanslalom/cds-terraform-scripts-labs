@@ -10,7 +10,7 @@ terraform {
 # Configure the AWS provider
 provider "aws" {
     region = "us-east-1"
- # Version not meeded 
+ # Version not needed 
 }
 
 # plan - execute 
