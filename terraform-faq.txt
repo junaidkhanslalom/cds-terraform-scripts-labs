@@ -1,0 +1,11 @@
+Terraform State- known state, is a file .tfstate 
+desired-known-actual 
+
+Why do we known state? 
+- state purpose: Mapping to a real world, store mapping between, objects and objects in cloud
+- for every AWS resource, you can add target
+- state purpose: Performance, talking to resource on cloud, cache helps, tfstate is a cache that gives where detail is stored
+
+Best practice, to have different number of projects, for single project. 
+Do new projects for different projects. 
+Best Practice - Group Resources have similar lifecycles and create Seperate Terraform projects for them
