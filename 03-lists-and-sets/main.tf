@@ -29,6 +29,6 @@ resource "aws_iam_user" "my_iam_users" {
   for_each = toset(var.names) # if you use count, your deletion and update is based on index, for each is value that is presented in index_key
   name = each.value
 
-  #Storing as value is a based option 
+  #Storing as value is a best option 
 
 }
